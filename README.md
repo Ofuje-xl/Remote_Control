@@ -1,2 +1,30 @@
 # Remote_Control
-Remote_Control  is a Bash script for domain reconnaissance, including WHOIS lookups, open port scanning (via Nmap), and anonymity checks using Tor. It generates structured reports with key findings like registrar details, open ports, and scan date. Ideal for penetration testers and security professionals.
+
+**Remote_Control** is is a Bash script for performing domain reconnaissance and security scanning. It extracts essential WHOIS information, scans for open ports using Nmap, and ensures anonymity by routing the operations through the Tor network.
+
+## Features
+- **WHOIS Information**: Extracts registrar, organization, country, and domain creation/expiry dates.
+- **Open Port Scanning**: Uses Nmap to detect open ports and services on a domain.
+- **Tor Anonymity**: Ensures all scans are done anonymously over Tor.
+- **Remote Scanning**: Supports remote domain scanning via SSH.
+- **Clean Reports**: Generates easy-to-read reports with all the important findings.
+
+## Requirements
+- Nmap
+- Tor
+- SSH access for remote scanning
+- WHOIS and Curl for data gathering
+
+  ## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ofuje-xl/Project_Recon_v1.3.git
+   cd Project_Recon_v1.3
+   
+2. chmod +x Project_Recon_v1.3.sh
+
+## Usage 
+1. Run the script to perform a domain scan:
+   ./Project_Recon_v1.3.sh
+
+2. The script will generate a report with WHOIS details, open ports, and other relevant information.
