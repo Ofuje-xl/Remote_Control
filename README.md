@@ -15,10 +15,11 @@
 - SSH access for remote scanning
 - WHOIS and Curl for data gathering
 
-  ## Installation
+## Installation
+
 1. Clone the repository:
    ```bash
-   git
+   git clone https://github.com/ofuje-xl/SilentRecon.git
    
 2. chmod +x SilentRecon.sh
 
