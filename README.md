@@ -1,6 +1,6 @@
-# Remote_Control
+# SilentRecon
 
-**Remote_Control** is is a Bash script for performing domain reconnaissance and security scanning. It extracts essential WHOIS information, scans for open ports using Nmap, and ensures anonymity by routing the operations through the Tor network.
+**SilentRecon** is a Bash script for performing domain reconnaissance and security scanning. It extracts essential WHOIS information, scans for open ports using Nmap, and ensures anonymity by routing the operations through the Tor network.
 
 ## Features
 - **WHOIS Information**: Extracts registrar, organization, country, and domain creation/expiry dates.
@@ -18,13 +18,12 @@
   ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ofuje-xl/Project_Recon_v1.3.git
-   cd Project_Recon_v1.3
+   git
    
-2. chmod +x Project_Recon_v1.3.sh
+2. chmod +x SilentRecon.sh
 
 ## Usage 
 1. Run the script to perform a domain scan:
-   ./Project_Recon_v1.3.sh
+   ./SilentRecon.sh
 
 2. The script will generate a report with WHOIS details, open ports, and other relevant information.
